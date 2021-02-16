@@ -1,0 +1,21 @@
+{
+    "identifier": "joshgreco.DoTheMath",
+    "name": "Do The Math",
+    "organization": "Josh Greco",
+    "description": "Lorem ipsum, dolor sit amet.",
+    "version": "1.0",
+    "categories": ["commands"],
+
+    "main": "main.js",
+
+    "commands": {
+        "editor": [
+            {
+                "title": "Do the Math",
+                "command": "do-the-math.compute",
+                "when": "editorHasSelection"
+            }
+        ]
+    }
+
+}
