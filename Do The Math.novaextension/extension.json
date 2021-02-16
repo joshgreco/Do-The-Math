@@ -2,10 +2,10 @@
     "identifier": "joshgreco.DoTheMath",
     "name": "Do The Math",
     "organization": "Josh Greco",
-    "description": "Lorem ipsum, dolor sit amet.",
+    "description": "An expression evaluator for Nova.",
     "version": "1.0",
     "categories": ["commands"],
-
+    "license": "MIT",
     "main": "main.js",
 
     "commands": {
@@ -16,6 +16,7 @@
                 "when": "editorHasSelection"
             }
         ]
-    }
-
+    },
+    "bugs": "https://github.com/joshgreco/Do-The-Math/issues",
+    "repository": "https://github.com/joshgreco/Do-The-Math"
 }
